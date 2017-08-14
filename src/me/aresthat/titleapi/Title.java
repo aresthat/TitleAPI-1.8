@@ -19,7 +19,7 @@ public class Title {
 	}
 	
 	public void SubTitle(String text2) {
-		PacketPlayOutTitle subtitle = new PacketPlayOutTitle(EnumTitleAction.TITLE, ChatSerializer.a("{\"text\":\"" + text2 + "\"}"), 20, 40, 20);
+		PacketPlayOutTitle subtitle = new PacketPlayOutTitle(EnumTitleAction.SUBTITLE, ChatSerializer.a("{\"text\":\"" + text2 + "\"}"), 20, 40, 20);
 		this.subtitle = subtitle;
 	}
 	
